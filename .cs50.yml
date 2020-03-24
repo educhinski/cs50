@@ -4,3 +4,8 @@ lab50:
     - readme
     - terminal
     - browser
+  lab50:
+    files:
+    - !include foo.c
+    - !include foo.h
+    - !include foo/
